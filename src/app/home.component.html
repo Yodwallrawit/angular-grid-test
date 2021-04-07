@@ -1,0 +1,66 @@
+<div class="cover-img">
+    <img src="https://i.dailymail.co.uk/i/pix/2013/12/13/article-2522775-1A0D285100000578-110_964x468.jpg" alt="">
+</div>
+
+
+<div class="container">
+    <div class="title-1">
+        <p> WE'R PAJINGKO STUDIO</p>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <app-card [headtitle]="'We are Care'"
+                [content]="'Sed ut perspiclatis unde omns inte natus error st vppetem accurstium doloreqioe laudatium rerm apperiam, eque psa quae ab inventore'">
+            </app-card>
+        </div>
+        <div class="col-4">
+            <app-card [headtitle]="'We are Developer'"
+                [content]="'Sed ut perspiclatis unde omns inte natus error st vppetem accurstium doloreqioe laudatium rerm apperiam, eque psa quae ab inventore'">
+            </app-card>
+        </div>
+        <div class="col-4">
+            <app-card [headtitle]="'We are Creative'"
+                [content]="'Sed ut perspiclatis unde omns inte natus error st vppetem accurstium doloreqioe laudatium rerm apperiam, eque psa quae ab inventore'">
+            </app-card>
+        </div>
+    </div>
+    <div class="row" id="line-2">
+        <div class="col-8">
+            <app-card [headtitle]="'About us'"
+                [content]="'Since 1999, Internet Marketing Ninjas has mastered the art of creating expert content that goes viral, earns trusted links, and ranks at the top of Google. Looking to transform your content marketing strategy? Learn how our Ninja team can help by scheduling a FREE consultation today.'">
+            </app-card>
+        </div>
+
+        <div class="col-4">
+            <div class="score">
+                <div class="title-bar">
+                    <p>HTML</p>
+                    <mat-slider class="slider-score" min="1" max="100" step="1" value="50"></mat-slider>
+                </div>
+                <div class="title-bar">
+                    <p>SCSS</p>
+                    <mat-slider class="slider-score" min="1" max="100" step="1" value="50"></mat-slider>
+                </div>
+                <div class="title-bar">
+                    <p>ANGULAR</p>
+                    <mat-slider class="slider-score" min="1" max="100" step="1" value="50"></mat-slider>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <div class="title-2">
+        <p> OUR TEAM</p>
+    </div>
+    <div class="row" id="line-3">
+        
+        <div class="col-4">
+            <app-team-card></app-team-card>
+        </div>
+        <div class="col-4">
+            <app-team-card></app-team-card>
+        </div>
+        <div class="col-4">
+            <app-team-card></app-team-card>
+        </div>
+    </div>
+</div>

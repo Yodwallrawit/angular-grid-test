@@ -1,0 +1,29 @@
+.container {
+    > .wrap-footer {
+        overflow-x: hidden;
+        // width: 100vw;
+        height: 70px;
+        background-color: #eeeeee;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p{
+            margin: unset;
+            padding-right: 10px;
+        }
+        
+        > .logo-social {
+            width: auto;
+            height: auto;
+            a{
+                >.logo {
+                    cursor: pointer;
+                    width: 30px;
+                    height: 30px;
+                   
+                }
+            }
+            
+        }
+    }
+}
